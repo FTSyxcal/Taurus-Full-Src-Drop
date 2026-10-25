@@ -1,0 +1,1330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\User\Downloads\Taurus Analyzation\Taurus.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{54714493-8306-4B5B-A575-2DC453B7639F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Taurus</AssemblyName>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <RootNamespace>Taurus</RootNamespace>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AA.Mothership">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/AA.Mothership.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ALINE">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/ALINE.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Assembly-CSharp-firstpass.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AssistantCoreSDKRuntime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/AssistantCoreSDKRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AssistantVoiceCommandCommon">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/AssistantVoiceCommandCommon.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="AstarPathfindingProject">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/AstarPathfindingProject.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Fbx.BuildTestAssets">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Autodesk.Fbx.BuildTestAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Autodesk.Fbx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Backtrace.Unity">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Backtrace.Unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BakeryAPV">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/BakeryAPV.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BakeryECS">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/BakeryECS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BakeryRuntimeAssembly">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/BakeryRuntimeAssembly.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BoingKit.Examples">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/BoingKit.Examples.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BoingKit">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/BoingKit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="CjLib">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/CjLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DebugDrawingExtension">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/DebugDrawingExtension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Domain_Reload">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Domain_Reload.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="EmotitronCompression">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/EmotitronCompression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Common">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Fusion.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Log">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Fusion.Log.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Realtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Fusion.Realtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Fusion.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Sockets">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Fusion.Sockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Fusion.Unity">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Fusion.Unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="GT_CustomMapSupportRuntime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/GT_CustomMapSupportRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/K4os.Compression.LZ4.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="KID">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/KID.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.LCK.Streaming">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/LIV.LCK.Streaming.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.LCK">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/LIV.LCK.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.LCKCore.ThirdParty.MessagePack">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/LIV.LCKCore.ThirdParty.MessagePack.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.LCKCore">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/LIV.LCKCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.LCK_GorillaTag">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/LIV.LCK_GorillaTag.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="LIV.NativeAudioBridge">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/LIV.NativeAudioBridge.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MTAssets.EasyMeshCombiner">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/MTAssets.EasyMeshCombiner.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MeshBakerCore">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/MeshBakerCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MeshBakerExamples">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/MeshBakerExamples.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Net.endel.nativewebsocket">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.Net.endel.nativewebsocket.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Voice.Hub.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.Voice.Hub.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Voice.NLayer">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.Voice.NLayer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Voice.Opus">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.Voice.Opus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.VoiceSDK.Mic.Common">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.VoiceSDK.Mic.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.VoiceSDK.Mic.Other">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.VoiceSDK.Mic.Other.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Wit.Composer">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.Wit.Composer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.Wit.Dictation">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.Wit.Dictation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.WitAi.Lib">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.WitAi.Lib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.WitAi.TTS">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.WitAi.TTS.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.WitAi">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.WitAi.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.Audio">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.XR.Audio.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.BuildingBlocks">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.XR.BuildingBlocks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.EnvironmentDepth">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.XR.EnvironmentDepth.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.ImmersiveDebugger.Interface">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.XR.ImmersiveDebugger.Interface.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.ImmersiveDebugger">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.XR.ImmersiveDebugger.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.MultiplayerBlocks.Fusion">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.XR.MultiplayerBlocks.Fusion.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Meta.XR.MultiplayerBlocks.Shared">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Meta.XR.MultiplayerBlocks.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Modio.Unity.Examples">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Modio.Unity.Examples.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Modio.Unity.UI">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Modio.Unity.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Modio.Unity">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Modio.Unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Modio">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Modio.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Mono.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NanoSockets">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/NanoSockets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NativeGallery">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/NativeGallery.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NavMeshComponents">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/NavMeshComponents.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Haptics">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Oculus.Haptics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Interaction.OVR.Samples">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Oculus.Interaction.OVR.Samples.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Interaction.OVR">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Oculus.Interaction.OVR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Interaction.Samples">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Oculus.Interaction.Samples.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Interaction.UnityXR">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Oculus.Interaction.UnityXR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Interaction">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Oculus.Interaction.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.Platform">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Oculus.Platform.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Oculus.VR">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Oculus.VR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pathfinding.ClipperLib">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Pathfinding.ClipperLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Pathfinding.Poly2Tri">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Pathfinding.Poly2Tri.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Photon3Unity3D.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PhotonRealtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/PhotonRealtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PhotonUnityNetworking.Utilities">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/PhotonUnityNetworking.Utilities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/PhotonUnityNetworking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PhotonVoice.API">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/PhotonVoice.API.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PhotonVoice.Fusion">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/PhotonVoice.Fusion.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PhotonVoice.PUN">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/PhotonVoice.PUN.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PhotonVoice">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/PhotonVoice.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PlayFab">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/PlayFab.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Sirenix.OdinInspector.Attributes.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Modules.Unity.Addressables">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Sirenix.OdinInspector.Modules.Unity.Addressables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SteamVR">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/SteamVR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SteamVR_Actions">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/SteamVR_Actions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.ComponentModel.Composition.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Configuration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Data.DataSetExtensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Data.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Drawing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.EnterpriseServices">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.EnterpriseServices.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.IO.Compression.FileSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.IO.Compression.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.IO.Hashing">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.IO.Hashing.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Memory.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Net.Http.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Numerics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Runtime.Serialization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Security">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Security.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel.Internals">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.ServiceModel.Internals.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Transactions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Xml.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.Xml.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/System.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TechniePhysicsCreator">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/TechniePhysicsCreator.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Addressables">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UniTask.Addressables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.DOTween">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UniTask.DOTween.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.Linq">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UniTask.Linq.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask.TextMeshPro">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UniTask.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UniTask.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Addressables.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging.DocCodeExamples">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Animation.Rigging.DocCodeExamples.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Animation.Rigging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Burst.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Formats.Fbx.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.InputSystem.ForUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.013">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.InternalAPIEngineBridge.013.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Localization">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.MemoryProfiler.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Multiplayer.Center.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Playmode.Common.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Multiplayer.Playmode.Common.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Playmode">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Multiplayer.Playmode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Csg">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.ProBuilder.Csg.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.KdTree">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.ProBuilder.KdTree.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Poly2Tri">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.ProBuilder.Poly2Tri.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Stl">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.ProBuilder.Stl.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.ProBuilder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Profiling.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Recorder.Base.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Recorder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.ResourceManager.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.ScriptableBuildPipeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Splines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.CoreUtils.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.Interaction.Toolkit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.Management.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MockRuntime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Unity.XR.OpenXR.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.AIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AMDModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.AMDModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ARModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.AccessibilityModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.AndroidJNIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.AnimationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.AssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.AudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ClothModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ClusterInputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ClusterRendererModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ContentLoadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.CrashReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.DSPGraphModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.DirectorModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.GIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.GameCenterModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.GridModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.HierarchyCoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.HotReloadModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IdentifiersModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.IdentifiersModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ImageConversionModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.InputForUIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.InputLegacyModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.InputModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InsightsModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.InsightsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.JSONSerializeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.LocalizationModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.MarshallingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.MultiplayerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.NVIDIAModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ParticleSystemModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.Physics2DModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.PhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.PropertiesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.SharedInternalsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.SpriteMaskModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.SpriteShapeModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.StreamingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.SubstanceModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.SubsystemsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.TLSModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.TerrainModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.TilemapModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UIElementsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UIModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UmbraModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConsentModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityConsentModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityCurlModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.VFXModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.VRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.VehiclesModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.VideoModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.VirtualTexturingModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.WindModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.XRModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VYaml.Core">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/VYaml.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Valve.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Valve.OpenXR.Utils">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Valve.OpenXR.Utils.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Viveport">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/Viveport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VoiceSDK.Dictation.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/VoiceSDK.Dictation.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VoiceSDK.Runtime.Composer">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/VoiceSDK.Runtime.Composer.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VoiceSDK.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/VoiceSDK.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VoiceSDK.Telemetry.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/VoiceSDK.Telemetry.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="XNode">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/XNode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ZString">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/ZString.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="andywiecko.BurstTriangulator">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/andywiecko.BurstTriangulator.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="arcade_success">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/arcade_success.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/com.rlabrecque.steamworks.net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="endel.nativewebsocket">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/endel.nativewebsocket.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="geometry3Sharp">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/geometry3Sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="meta.xr.mrutilitykit">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/meta.xr.mrutilitykit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/mscorlib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/netstandard.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="nexus.nexussdk.Runtime">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/nexus.nexussdk.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/Gorilla Tag_Data/Managed/websocket-sharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx.Harmony">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/BepInEx.Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx.Preloader">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/BepInEx.Preloader.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/BepInEx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="HarmonyXInterop">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/HarmonyXInterop.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil.Mdb">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/Mono.Cecil.Mdb.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil.Pdb">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/Mono.Cecil.Pdb.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil.Rocks">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/Mono.Cecil.Rocks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoMod.RuntimeDetour">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/MonoMod.RuntimeDetour.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="MonoMod.Utils">
+      <HintPath>C:/Program Files/Meta Horizon/Software/Software/another-axiom-gorilla-tag/BepInEx/core/MonoMod.Utils.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Plugin.cs" />
+    <Compile Include="BroomGrabAssist.cs" />
+    <Compile Include="MenuDataPaths.cs" />
+    <Compile Include="RemoteFeaturePolicy.cs" />
+    <Compile Include="SignedFeaturePolicy.cs" />
+    <Compile Include="TelemetryWebhook.cs" />
+    <Compile Include="TelemetryFormat.cs" />
+    <Compile Include="DiscordPresence.cs" />
+    <Compile Include="DiscordPresenceText.cs" />
+    <Compile Include="MenuNetworking.cs" />
+    <Compile Include="WorldEffectsPacket.cs" />
+    <Compile Include="WorldEffectsNetworking.cs" />
+    <Compile Include="MenuPose.cs" />
+    <Compile Include="Soundboard.cs" />
+    <Compile Include="GradientPicker.cs" />
+    <Compile Include="MenuPacket.cs" />
+    <Compile Include="MenuStyle.cs" />
+    <Compile Include="MenuFonts.cs" />
+    <Compile Include="MenuFontView.cs" />
+    <Compile Include="MenuEffectAnchor.cs" />
+    <Compile Include="MenuButtonEffects.cs" />
+    <Compile Include="MenuDesign.cs" />
+    <Compile Include="KyraMenu.cs" />
+    <Compile Include="TelAvivMenu.cs" />
+    <Compile Include="FizzoMenu.cs" />
+    <Compile Include="ParrotMenu.cs" />
+    <Compile Include="MenuRender.cs" />
+    <Compile Include="ImportedXyfer.cs" />
+    <Compile Include="XyferHeart.cs" />
+    <Compile Include="ImportedSurface.cs" />
+    <Compile Include="ImportedAssetMenu.cs" />
+    <Compile Include="NativeUntitled.cs" />
+    <Compile Include="NativeUntitledKeyboard.cs" />
+    <Compile Include="NativeNxo.cs" />
+    <Compile Include="NativePast.cs" />
+    <Compile Include="NativeRexon.cs" />
+    <Compile Include="RexonKeyboard.cs" />
+    <Compile Include="RexonKeyboardKey.cs" />
+    <Compile Include="NativeIi.cs" />
+    <Compile Include="NativeUiSnapshot.cs" />
+    <Compile Include="NativeUiClick.cs" />
+    <Compile Include="NativeUiResources.cs" />
+    <Compile Include="NativeUiKey.cs" />
+    <Compile Include="NativeUiSemanticColor.cs" />
+    <Compile Include="NativeUiThemeRole.cs" />
+    <Compile Include="ImportedNativeMenu.cs" />
+    <Compile Include="ImportedTheme.cs" />
+    <Compile Include="ImportedPicker.cs" />
+    <Compile Include="PortNotification.cs" />
+    <Compile Include="MenuState.cs" />
+    <Compile Include="MenuClickSounds.cs" />
+    <Compile Include="MenuSaveData.cs" />
+    <Compile Include="MenuSave.cs" />
+    <Compile Include="MenuEntry.cs" />
+    <Compile Include="MenuCatalog.cs" />
+    <Compile Include="MenuPalette.cs" />
+    <Compile Include="MenuPlatform.cs" />
+    <Compile Include="LocalMods.cs" />
+    <Compile Include="CustomBoards.cs" />
+    <Compile Include="BoardSurface.cs" />
+    <Compile Include="RigPatchKit.cs" />
+    <Compile Include="DetectedPorts.cs" />
+    <Compile Include="CosmeticPreview.cs" />
+    <Compile Include="PokrukCameraAdapter.cs" />
+    <Compile Include="LobbyActions.cs" />
+    <Compile Include="MenuView.cs" />
+    <Compile Include="DesktopMenu.cs" />
+    <Compile Include="GunLib.cs" />
+    <Compile Include="DiscordRPC\Configuration.cs" />
+    <Compile Include="DiscordRPC\DiscordRpcClient.cs" />
+    <Compile Include="DiscordRPC\ActivityType.cs" />
+    <Compile Include="DiscordRPC\Assets.cs" />
+    <Compile Include="DiscordRPC\Button.cs" />
+    <Compile Include="DiscordRPC\Party.cs" />
+    <Compile Include="DiscordRPC\BaseRichPresence.cs" />
+    <Compile Include="DiscordRPC\RichPresence.cs" />
+    <Compile Include="DiscordRPC\RichPresenceResponse.cs" />
+    <Compile Include="DiscordRPC\Secrets.cs" />
+    <Compile Include="DiscordRPC\StatusDisplayType.cs" />
+    <Compile Include="DiscordRPC\Timestamps.cs" />
+    <Compile Include="DiscordRPC\User.cs" />
+    <Compile Include="DiscordRPC\EventType.cs" />
+    <Compile Include="DiscordRPC\Converters\EnumSnakeCaseConverter.cs" />
+    <Compile Include="DiscordRPC\Converters\EnumValueAttribute.cs" />
+    <Compile Include="DiscordRPC\Events\OnReadyEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnCloseEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnErrorEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnPresenceUpdateEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnSubscribeEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnUnsubscribeEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnJoinEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnSpectateEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnJoinRequestedEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnConnectionEstablishedEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnConnectionFailedEvent.cs" />
+    <Compile Include="DiscordRPC\Events\OnRpcMessageEvent.cs" />
+    <Compile Include="DiscordRPC\Exceptions\BadPresenceException.cs" />
+    <Compile Include="DiscordRPC\Exceptions\InvalidConfigurationException.cs" />
+    <Compile Include="DiscordRPC\Exceptions\InvalidPipeException.cs" />
+    <Compile Include="DiscordRPC\Exceptions\StringOutOfRangeException.cs" />
+    <Compile Include="DiscordRPC\Exceptions\UninitializedException.cs" />
+    <Compile Include="DiscordRPC\Helper\BackoffDelay.cs" />
+    <Compile Include="DiscordRPC\Helper\StringTools.cs" />
+    <Compile Include="DiscordRPC\IO\Handshake.cs" />
+    <Compile Include="DiscordRPC\IO\INamedPipeClient.cs" />
+    <Compile Include="DiscordRPC\IO\ManagedNamedPipeClient.cs" />
+    <Compile Include="DiscordRPC\IO\Opcode.cs" />
+    <Compile Include="DiscordRPC\IO\PipeFrame.cs" />
+    <Compile Include="DiscordRPC\IO\PipeLocation.cs" />
+    <Compile Include="DiscordRPC\Logging\DiscordLogManager.cs" />
+    <Compile Include="DiscordRPC\Logging\FileLogger.cs" />
+    <Compile Include="DiscordRPC\Logging\ILogger.cs" />
+    <Compile Include="DiscordRPC\Logging\LogLevel.cs" />
+    <Compile Include="DiscordRPC\Logging\NullLogger.cs" />
+    <Compile Include="DiscordRPC\Message\CloseMessage.cs" />
+    <Compile Include="DiscordRPC\Message\ConnectionEstablishedMessage.cs" />
+    <Compile Include="DiscordRPC\Message\ConnectionFailedMessage.cs" />
+    <Compile Include="DiscordRPC\Message\ErrorMessage.cs" />
+    <Compile Include="DiscordRPC\Message\ErrorCode.cs" />
+    <Compile Include="DiscordRPC\Message\IMessage.cs" />
+    <Compile Include="DiscordRPC\Message\JoinMessage.cs" />
+    <Compile Include="DiscordRPC\Message\JoinRequestMessage.cs" />
+    <Compile Include="DiscordRPC\Message\MessageType.cs" />
+    <Compile Include="DiscordRPC\Message\PresenceMessage.cs" />
+    <Compile Include="DiscordRPC\Message\ReadyMessage.cs" />
+    <Compile Include="DiscordRPC\Message\SpectateMessage.cs" />
+    <Compile Include="DiscordRPC\Message\SubscribeMessage.cs" />
+    <Compile Include="DiscordRPC\Message\UnsubscribeMessage.cs" />
+    <Compile Include="DiscordRPC\RPC\RpcConnection.cs" />
+    <Compile Include="DiscordRPC\RPC\RpcState.cs" />
+    <Compile Include="DiscordRPC\RPC\Commands\CloseCommand.cs" />
+    <Compile Include="DiscordRPC\RPC\Commands\ICommand.cs" />
+    <Compile Include="DiscordRPC\RPC\Commands\PresenceCommand.cs" />
+    <Compile Include="DiscordRPC\RPC\Commands\RespondCommand.cs" />
+    <Compile Include="DiscordRPC\RPC\Commands\SubscribeCommand.cs" />
+    <Compile Include="DiscordRPC\RPC\Payload\ClosePayload.cs" />
+    <Compile Include="DiscordRPC\RPC\Payload\Command.cs" />
+    <Compile Include="DiscordRPC\RPC\Payload\IPayload.cs" />
+    <Compile Include="DiscordRPC\RPC\Payload\ArgumentPayload.cs" />
+    <Compile Include="DiscordRPC\RPC\Payload\EventPayload.cs" />
+    <Compile Include="DiscordRPC\RPC\Payload\ServerEvent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="hamburbur.bundle" />
+    <EmbeddedResource Include="ii.bundle" />
+    <EmbeddedResource Include="ii-current.bundle" />
+    <EmbeddedResource Include="ItzGameMenu\menutemplate.bundle" />
+    <EmbeddedResource Include="ItzGameMenu\PokruksCameraMod.dll" />
+    <EmbeddedResource Include="menu-fonts.bundle" />
+    <EmbeddedResource Include="monosandbox.bundle" />
+    <EmbeddedResource Include="NativeUi\disconnecticon.png" />
+    <EmbeddedResource Include="NativeUi\homeicon.png" />
+    <EmbeddedResource Include="NativeUi\ii-debug.png" />
+    <EmbeddedResource Include="NativeUi\ii-return.png" />
+    <EmbeddedResource Include="NativeUi\ii-search.png" />
+    <EmbeddedResource Include="NativeUi\juul-search.png" />
+    <EmbeddedResource Include="NativeUi\juul-x.png" />
+    <EmbeddedResource Include="NativeUi\kyra-reference.png" />
+    <EmbeddedResource Include="NativeUi\searchicon.png" />
+    <EmbeddedResource Include="NativeUi\tel-aviv.png" />
+    <EmbeddedResource Include="NativeUi\tel-aviv-flag.png" />
+    <EmbeddedResource Include="NativeUi\untitled-logo.png" />
+    <EmbeddedResource Include="nxo-click.bundle" />
+    <EmbeddedResource Include="nxo-pinwheel.bundle" />
+    <EmbeddedResource Include="parrot.bundle" />
+    <EmbeddedResource Include="past.bundle" />
+    <EmbeddedResource Include="rexon.bundle" />
+    <EmbeddedResource Include="Rexon\LICENSE.txt" />
+    <EmbeddedResource Include="rexon-pc.bundle" />
+    <EmbeddedResource Include="UnityFigmaBridgeRuntime.dll" />
+    <EmbeddedResource Include="xyfer.bundle" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
